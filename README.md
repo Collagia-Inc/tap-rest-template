@@ -4,7 +4,7 @@
 
 This was extended from the [Meltano Target SDK](https://sdk.meltano.com).
 
-See the [README](https://gitlab.com/collagia-connectors/tap-rest-template/blob/master/tap_rest_template/README.md) that is installed with the target
+See the [README](https://gitlab.com/collagia-connectors/tap-rest-template/blob/main/tap_rest_template/README.md) that is installed with the target
 
 ## Local Development Environment
 
