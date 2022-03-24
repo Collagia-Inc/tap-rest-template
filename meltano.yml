@@ -6,7 +6,7 @@ plugins:
   - name: tap-rest-template
     namespace: tap_rest_template
     # use this with the command meltano install
-    # pip_url: git+ssh://git@ssp-github/sixthst/tap-rest-template.git
+    # pip_url: git+ssh://git+ssh://collagia-gitlab/collagia-connectors/tap-rest-template
     # executable: tap-rest-template
     # use this shell script for local development
     executable: ./tap-rest-template.sh

@@ -1,18 +1,18 @@
 # tap-rest-template
 
-`tap-rest-template` is a Singer Tap for SSP. It is assumed SSP will primarily use this target in association with the aws s3 tap though not required.
+`tap-rest-template` is a Singer Tap for Collagia. It is assumed Collagia will primarily use this target in association with the aws s3 tap though not required.
 
-This was built using the [SSP Tap REST Template](https://github.com/sixthst/tap-rest-template). That was extended for SSP from the [Meltano Target SDK](https://sdk.meltano.com).
+This was built using the [Collagia Tap REST Template](https://gitlab.com/collagia-connectors/tap-rest-template/tap-rest-template). That was extended for Collagia from the [Meltano Target SDK](https://sdk.meltano.com).
 
 ## Installation
 
-Install with command `meltano install`. Assumes ssp-github is part of your .ssh/config.
+Install with command `meltano install`. Assumes collagia-gitlab is part of your .ssh/config.
 
 ```yml
   loaders:
   - name: tap-rest-template
     namespace: tap_rest_template
-    pip_url: git+ssh://ssp-github/sixthst/tap-rest-template.git
+    pip_url: git+ssh://collagia-gitlab/collagia-connectors/tap-rest-template
     executable: tap-rest-template
 ```
 

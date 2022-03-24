@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "tap-rest-template"
 version = "0.0.1"
-description = "`tap-rest-template` is a Singer tap for SSP, built with the Meltano SDK for Singer Taps."
+description = "`tap-rest-template` is a Singer tap for Collagia, built with the Meltano SDK for Singer Taps."
 authors = ["Andrew Hansen"]
 license = "Apache 2.0"
 
