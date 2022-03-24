@@ -1,0 +1,9 @@
+{
+"type": "object",
+"properties": {
+  "ID": {"type": ["integer", "null"]},
+  "Code": {"type": ["string", "null"]},
+  "Date": {"type": ["string", "null"], "format": "date-time"},
+  "Active": {"type": ["boolean", "null"]},
+  "Nested": {"type": ["string", "null"]},
+  "List": {"type": ["array", "null"]}}}

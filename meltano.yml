@@ -1,0 +1,36 @@
+version: 1
+send_anonymous_usage_stats: true
+project_id: d06334bf-1576-4f82-acd2-61446d174caa
+plugins:
+  extractors:
+  - name: tap-rest-template
+    namespace: tap_rest_template
+    # use this with the command meltano install
+    # pip_url: git+ssh://git@ssp-github/sixthst/tap-rest-template.git
+    # executable: tap-rest-template
+    # use this shell script for local development
+    executable: ./tap-rest-template.sh
+    capabilities:
+    - state
+    - catalog
+    - discover
+    settings:
+    - name: host
+      kind: password
+    - name: rest_resource_version
+      kind: password
+    - name: exclude_stream_csv
+      kine: password
+    - name: include_stream_csv
+      kine: password
+    - name: remote_flag
+      kind: boolean
+    - name: debug_flag
+      kind: boolean
+    config:
+      remote_flag: true
+      debug_flag: false
+  loaders:
+  - name: target-jsonl
+    variant: andyh1203
+    pip_url: target-jsonl
