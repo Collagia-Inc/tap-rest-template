@@ -1,6 +1,6 @@
 # tap-rest-template
 
-`tap-rest-template` is a Singer Tap for SSP. It is assumed SSP will primarily use this target in association with the aws s3 tap though not required.
+`tap-rest-template` is a Singer Tap for Collagia. It is assumed Collagia will primarily use this target in association with the aws s3 tap though not required.
 
 This was extended from the [Meltano Target SDK](https://sdk.meltano.com).
 
